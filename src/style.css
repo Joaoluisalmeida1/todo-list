@@ -1,0 +1,83 @@
+/* src/style.css */
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set default font-family for body */
+  body {
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling the header */
+  header {
+    background-color: #000000;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Navbar buttons */
+  nav button {
+    background: none;
+    border: 2px solid transparent;
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 0 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  nav button:hover {
+    border-color: #DAA520;  /* Gold border on hover */
+  }
+  
+  nav button:focus {
+    outline: none;
+  }
+  
+  /* Content area */
+  #content {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Headline styling */
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Gold accent for certain text */
+  .gold-text {
+    color: #DAA520;
+  }
+  
+  /* Image styling */
+  img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+  
